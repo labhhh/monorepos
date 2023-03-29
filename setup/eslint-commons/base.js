@@ -6,7 +6,7 @@ module.exports = {
 			"next",
 			"eslint:recommended",
 			"plugin:jest/recommended",
-			"pluging:prettier/recommended"
+			"plugin:prettier/recommended"
 	],
 	"rules": {
 			"no-console": "error",
