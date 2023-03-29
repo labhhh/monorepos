@@ -6,7 +6,11 @@
   "dependencies": {
     "styled-components": "^5.3.9"
   },
+  "scripts": {
+    "lint": "eslint \"./**/*.{ts,tsx}\""
+  },
   "devDependencies": {
-    "@monorepo/tsconfig-commons": "*"
+    "@monorepo/tsconfig-commons": "*",
+    "@monorepo/eslint-commons": "*"
   }
 }

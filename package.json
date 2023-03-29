@@ -8,16 +8,23 @@
 		]
 	},
 	"scripts": {
+		"lint":"yarn workspaces run lint",
 		"web-public": "yarn workspace @monorepo/web-public",
 		"dev:web-public":"yarn web-public dev",
 		"build:web-public":"yarn web-public build",
 		"start:web-public":"yarn web-public start",
-		"design-system": "yarn workspace @monorepo/design-system"
+		"lint:web-public":"yarn web-public lint",
+		"design-system": "yarn workspace @monorepo/design-system",
+		"utils": "yarn workspace @monorepo/utils",
+		"test:utils":"yarn utils test"
 	},
 	"dependencies": {
+		"eslint":"8.14.0",
+		"prettier":"2.6.2",
+		"@types/jest": "27.5.0",
 		"@types/styled-components":"5.1.25",
 		"@types/node": "^18.15.10",
     "@types/react": "^18.0.30",
-		"typescript": "^5.0.2"
+		"typescript": "4.5.5"
 	}
 }
