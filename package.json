@@ -11,6 +11,13 @@
 		"web-public": "yarn workspace @monorepo/web-public",
 		"dev:web-public":"yarn web-public dev",
 		"build:web-public":"yarn web-public build",
-		"start:web-public":"yarn web-public start"
+		"start:web-public":"yarn web-public start",
+		"design-system": "yarn workspace @monorepo/design-system"
+	},
+	"dependencies": {
+		"@types/styled-components":"5.1.25",
+		"@types/node": "^18.15.10",
+    "@types/react": "^18.0.30",
+		"typescript": "^5.0.2"
 	}
 }
